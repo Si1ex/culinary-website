@@ -42,7 +42,7 @@ export default function NavBar() {
           }
 
     return (
-    <nav className="fixed top-0 z-50 w-full border-gray-200 bg-repeat-space bg-gradient-to-br from-lime-400 to-green-500">
+    <nav className="fixed top-0 z-50 w-full border-gray-200 bg-repeat-space bg-gradient-to-r from-lime-400 to-green-500">
     <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <div className="w-24 flex-shrink-0 hidden lg:block">
             <Link href="#firstPage" className="flex">

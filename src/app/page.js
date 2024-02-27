@@ -1,11 +1,12 @@
 "use client"
 import React, { useEffect } from 'react';
 import ReactFullpage from '@fullpage/react-fullpage';
-import Page1 from './Page1';
-import Page2 from './Page2';
-import Page3 from './Page3';
-import Page4 from './Page4';
-import NavBar from './components/NavBar'; // Import your NavBar component
+import Page1 from './pages/Page1';
+import Page2 from './pages/Page2';
+import Page3 from './pages/Page3';
+import Page4 from './pages/Page4';
+import Page5 from './pages/Page5';
+import NavBar from './components/NavBar';
 
 const SEL = 'custom-section';
 const SECTION_SEL = `.${SEL}`;
@@ -29,6 +30,10 @@ const App = () => {
     {
       component: <Page4 />,
       text: 'Fourth Page',
+    },
+    {
+      component: <Page5 />,
+      text: 'Fifth Page',
     },
   ];
 
@@ -58,7 +63,7 @@ const App = () => {
         debug /* Debug logging */
         pluginWrapper={pluginWrapper}
         navigation
-        anchors={['firstPage', 'secondPage', 'thirdPage', 'fourthPage']}
+        anchors={['firstPage', 'secondPage', 'thirdPage', 'fourthPage', 'fifthPage']}
         sectionSelector={SECTION_SEL}
         onLeave={onLeave}
         render={(comp) => (

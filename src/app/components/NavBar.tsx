@@ -46,13 +46,13 @@ export default function NavBar() {
     <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <div className="w-24 flex-shrink-0 hidden lg:block">
             <Link href="#firstPage" className="flex">
-            <Image
-                src={logo}
-                width={50}
-                height={50}
-                className=""
-                alt="Logo"
-            />
+                <Image
+                    src={logo}
+                    width={50}
+                    height={50}
+                    className=""
+                    alt="Logo"
+                />
             </Link>
         </div>
         <div className="flex order-2 lg:orde-1">
@@ -92,6 +92,10 @@ export default function NavBar() {
         ref={menuRef}
         >
             <div className="flex flex-col text-white text-lg items-start px-3 py-3 space-y-2 ">
+            <a 
+                    href="#firstPage" 
+                    className="block py-2 px-3 text-white rounded " 
+                    aria-current="page">Koti</a>
             <a 
                     href="#secondPage" 
                     className="block py-2 px-3 text-white rounded " 

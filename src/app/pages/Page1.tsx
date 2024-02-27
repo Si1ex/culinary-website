@@ -1,16 +1,16 @@
-import React, { useState, useEffect } from 'react';
+import React, { Component } from "react";
 
-
-function Page2() {
-  return (
-    <div className="relative bg-pack-train bg-no-repeat bg-fixed bg-cover h-screen w-screen overflow-hidden">
+class Page1 extends Component {
+  render() {
+    return (
+      <div className="relative bg-pack-train bg-no-repeat bg-fixed bg-cover h-full w-screen overflow-hidden">
         <div className="absolute inset-0 backdrop-blur-md">
           <div className="absolute inset-0 bg-black opacity-50"></div>
         </div>
         
         <div className="flex flex-col justify-end h-screen">
           <div className="flex items-end h-80 md:h-[36rem] z-10">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" className="w-full">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 250" className="w-full absolute bottom-0 hidden md:block">
               <defs>
                 <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
                   <stop offset="0%" style={{ stopColor: "#a3e635", stopOpacity: 1 }} />
@@ -25,9 +25,17 @@ function Page2() {
             </svg>
           </div>
         </div>
+        <div className="absolute inset-0 flex flex-col justify-center items-center mt-12 ">
+          <h1 className="text-4xl md:text-6xl font-bold text-center">Tervetuloa Ruokamaailmaan!</h1>
+          <div className="w-1/2 h-2/5 pt-6">
+            <h4 className="text-sm md:text-xl text-white font-medium text-center">
+              Täällä herkutellaan maailman makuja ja ruokakulttuureja. Tutustu eri maiden keittiöihin, löydä viikon paras resepti ja lue artikkeleita ruokamaailman kiinnostavista ilmiöistä ja trendeistä! Liity herkulliseen yhteisöömme ja inspiroidu ruoan monimuotoisuudesta. Täällä ruoka yhdistää meidät kaikki!
+            </h4>
+          </div>
+        </div>
       </div>
-  );
+    );
+  }
 }
 
-export default Page2;
-
+export default Page1;

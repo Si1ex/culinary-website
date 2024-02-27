@@ -2,7 +2,7 @@ import React from 'react';
 
 function CookingVideo() {
     return (
-      <div className='md:mr-32 p-10 w-full h-full'>
+      <div className='max-w-md aspect-video'>
         <iframe
           className='w-full h-full flex inset-0 aspect-video'
           width="100%"

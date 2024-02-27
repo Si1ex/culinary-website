@@ -1,4 +1,3 @@
-/** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
     './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
@@ -11,6 +10,13 @@ module.exports = {
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'pack-train': "url('./images/Taustakuva.jpg')",
+        'artikkeli': "url('./images/Artikkelit.jpg')",
+        'trendi': "url('./images/Ruokatrendit.jpg')",
+        'hävikki': "url('./images/Hävikki.jpg')",
+        'pasta': "url('./images/Pasta.jpg')",
+        'pastaa': "url('./images/Pastaa.jpg')",
+        'albumi': "url('./images/albumi.jpg')",
+        'carbonara': "url('./images/carbonara.jpg')",
       },
     },
     backdropBlur: {
@@ -22,4 +28,4 @@ module.exports = {
       '2xl': '24px',
     },
   },
-}
+};

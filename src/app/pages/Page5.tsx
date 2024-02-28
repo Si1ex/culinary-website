@@ -11,24 +11,23 @@ function Page5() {
         <div className="absolute inset-0 flex flex-col md:flex-row items-center justify-center">
         <div className="md:w-1/3">
           <div className="m-4">
-            <h1 className="mb-1 md:pb-10 text-3xl md:text-5xl font-bold text-center text-white">Foorumi</h1>
-            <h4 className="text-sm md:text-xl text-white font-medium text-center">
-              Foorumilla pääset keskustelemaan resepteistä ja ruoanlaitosta muiden samanhenkisten kanssa. Jaa kokemuksiasi, vinkkejäsi ja kysy neuvoa ruoanlaittoon liittyvissä kysymyksissä.
-            </h4>
+          <h2 className="mb-1 md:pb-10 text-xl md:text-4xl font-bold text-center text-white">Tervetuloa foorumille!</h2>
           </div>
         </div>
-         
-        <div className="md:w-1/2 md:h-1/2 grid grid-cols-1 m-2 md:m-6 gap-2 md:shrink-0 place-items-center">
+        <div className="md:w-1/2 md:h-1/2 grid grid-cols-1 m-2 md:m-6 px-5 gap-2 md:shrink-0 place-items-center">
           <div className="w-full h-full md:w-full">
             <div className="relative w-full h-full md:h-96 rounded-lg p-6 shadow-lg hover:scale-105 transition-transform duration-300 ease-in-out overflow-hidden flex flex-col justify-center items-center">
               <div className="absolute inset-0 bg-artikkeli bg-no-repeat bg-cover backdrop-blur-lg blur-md"></div>
               <div className="relative text-center">
-                <h5 className="block mb-2 font-sans text-lg antialiased font-semibold leading-snug tracking-normal text-black">
+                <h2 className="block mb-2 font-sans md:text-2xl text-lg antialiased font-semibold leading-snug tracking-normal text-black">
                   Foorumi
+                </h2>
+                <h5 className="text-sm md:text-xl text-black font-medium text-center">
+                  Foorumilla pääset keskustelemaan resepteistä ja ruoanlaitosta muiden samanhenkisten kanssa. Jaa kokemuksiasi, vinkkejäsi ja kysy neuvoa ruoanlaittoon liittyvissä kysymyksissä.
                 </h5>
                 <a href="#" className="inline-block">
                   <button
-                    className="flex items-center gap-2 px-4 py-6 font-sans text-xs font-bold text-center text-black align-middle transition-all rounded-lg select-none disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none hover:bg-gray-900/10 active:bg-gray-900/20"
+                    className="flex items-center gap-2 px-4 py-6 font-sans text-xs md:text-lg font-bold text-center text-black align-middle transition-all rounded-lg select-none disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none hover:bg-gray-900/10 active:bg-gray-900/20"
                     type="button">
                     Lue lisää
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="2"

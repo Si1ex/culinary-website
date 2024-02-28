@@ -20,11 +20,12 @@ function Page2() {
           d="M0,192L60,186.7C120,181,240,171,360,176C480,181,600,203,720,213.3C840,224,960,224,1080,213.3C1200,203,1320,181,1380,170.7L1440,160L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"
         ></path>
       </svg>
-      <div className="absolute grid grid-cols-1 md:grid-cols-2 inset-0 md:m-6 gap-2 md:gap-4 md:shrink-0 grid-rows-2
+      <div className="absolute grid grid-cols-1 md:grid-cols-2 inset-0 md:m-6 gap-2 px-5 md:gap-4 md:shrink-0 grid-rows-2
        md:grid-rows-1 items-center justify-center">
-          <div className="relative lg:max-w-3xl w-full h-96 mt-20 md:mr-6 hover:scale-105 transition-transform duration-300 ease-in-out overflow-hidden">
-          <div className="absolute inset-0 bg-carbonara bg-no-repeat bg-contain shadow-lg"></div>
-          </div>
+          <div className="relative lg:max-w-3xl lg:max-h-3xl w-full h-96 md:mt-20 md:mr-6 hover:scale-105 transition-transform duration-300 ease-in-out overflow-hidden flex flex-col justify-end md:justify-center">
+  <div className="absolute inset-0 bg-carbonara bg-no-repeat bg-contain shadow-lg"></div>
+</div>
+
         <div className="grid grid-cols-1 md:shrink-0 place-items-center">
         <div className="m-4">
             <h1 className="pb-5 md:text-lg font-bold text-center text-white">Viikon resepti: Pasta Carbonara</h1>
@@ -33,9 +34,7 @@ function Page2() {
             </h4>
           </div>
           <CookingVideo />
-          
         </div>
-        
       </div>
     </div>
   );

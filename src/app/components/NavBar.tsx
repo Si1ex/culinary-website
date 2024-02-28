@@ -56,7 +56,7 @@ export default function NavBar() {
             </Link>
         </div>
         <div className="flex order-2 lg:orde-1">
-            
+        
         <SearchBar />
 
         <div //Hamburger button
@@ -107,7 +107,11 @@ export default function NavBar() {
             <a 
                     href="#fourthPage" 
                     className="block py-2 px-3 text-white rounded " 
-                    aria-current="page">Albumi ja foorumi</a>
+                    aria-current="page">Albumi</a>
+            <a 
+                    href="#fifthPage" 
+                    className="block py-2 px-3 text-white rounded " 
+                    aria-current="page">Foorumi</a>
             </div>
         </div>
     </div>
@@ -130,34 +134,38 @@ export default function NavBar() {
                     d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"/>
             </svg>
             </div>
-
         </div>
         <div className="hidden lg:block container text-white">
             <div className="flex items-center justify-center">
-            <ul className="flex flex-col p-4 md:p-0 mt-4 font-medium border rounded-lg md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 bg-repeat-space bg-transparent">
-            <li>
-            <a 
-                href="#firstPage" 
-                className="block py-2 px-3 text-white rounded hover:scale-110 ease-in-out duration-100 md:bg-transparent md:p-0" 
-                aria-current="page">Koti</a>
-            </li>
-            <li>
-            <a 
-                href="#secondPage" 
-                className="block py-2 px-3 text-white rounded hover:scale-110 ease-in-out duration-100 md:bg-transparent md:p-0" 
-                aria-current="page">Viikon resepti</a>
-            </li>
-            <li>
-            <a 
-                href="#thirdPage" 
-                className="block py-2 px-3 text-gray-900 rounded hover:scale-110 ease-in-out duration-100 md:hover:bg-transparent md:p-0 dark:text-white dark:hover:text-white md:dark:hover:bg-transparen">Artikkelit</a>
-            </li>
-            <li>
-            <a 
-                href="#fourthPage" 
-                className="block py-2 px-3 text-gray-900 rounded hover:scale-110 ease-in-out duration-100 md:hover:bg-transparent md:p-0 dark:text-white dark:hover:text-white md:dark:hover:bg-transparent">Albumi ja foorumi</a>
-            </li>
-        </ul>
+                <ul className="flex flex-col p-4 md:p-0 mt-4 font-medium border rounded-lg md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 bg-repeat-space bg-transparent">
+                    <li>
+                    <a 
+                        href="#firstPage" 
+                        className="block py-2 px-3 text-white rounded hover:scale-110 ease-in-out duration-100 md:bg-transparent md:p-0" 
+                        aria-current="page">Koti</a>
+                    </li>
+                    <li>
+                    <a 
+                        href="#secondPage" 
+                        className="block py-2 px-3 text-white rounded hover:scale-110 ease-in-out duration-100 md:bg-transparent md:p-0" 
+                        aria-current="page">Viikon resepti</a>
+                    </li>
+                    <li>
+                    <a 
+                        href="#thirdPage" 
+                        className="block py-2 px-3 text-gray-900 rounded hover:scale-110 ease-in-out duration-100 md:hover:bg-transparent md:p-0 dark:text-white dark:hover:text-white md:dark:hover:bg-transparen">Artikkelit</a>
+                    </li>
+                    <li>
+                    <a 
+                        href="#fourthPage" 
+                        className="block py-2 px-3 text-gray-900 rounded hover:scale-110 ease-in-out duration-100 md:hover:bg-transparent md:p-0 dark:text-white dark:hover:text-white md:dark:hover:bg-transparent">Albumi</a>
+                    </li>
+                    <li>
+                    <a 
+                        href="#fifthPage" 
+                        className="block py-2 px-3 text-gray-900 rounded hover:scale-110 ease-in-out duration-100 md:hover:bg-transparent md:p-0 dark:text-white dark:hover:text-white md:dark:hover:bg-transparent">Foorumi</a>
+                    </li>
+                </ul>
             </div>
         </div>
         </div>

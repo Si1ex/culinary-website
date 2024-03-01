@@ -26,16 +26,16 @@ function Page4() {
             <h2 className="mb-1 md:pb-10 text-xl md:text-4xl font-bold text-center text-white">Tervetuloa valokuva-albumiin!</h2>
           </div>
         </div>
-        <div className="md:w-1/2 grid grid-cols-1 m-2 md:m-6 gap-2 px-5 md:shrink-0 place-items-center">
-          <div className="w-full h-full md:w-full">
-            <div className="relative w-full h-full md:h-96 rounded-lg p-6 shadow-lg hover:scale-105 transition-transform duration-300 ease-in-out overflow-hidden flex flex-col justify-center items-center">
+        <div className="md:w-2/3 md:h-4/6 px-5 grid grid-cols-1 m-2 md:m-6 gap-2 md:shrink-0 place-items-center">
+          <div className="w-full h-full">
+            <div className="relative w-full h-full md:h-96 rounded-lg p-6 shadow-lg overflow-hidden flex flex-col justify-center items-center min-h-full">
               <div className="absolute inset-0 bg-albumi bg-no-repeat bg-cover backdrop-blur-lg blur-md"></div>
               <div className="relative text-center">
                 <h2 className="block mb-2 font-sans md:text-2xl text-lg antialiased font-semibold leading-snug tracking-normal text-black">
                   Valokuva-albumi
                 </h2>
                 <h5 className="text-sm md:text-xl text-black font-medium text-center">
-                  Valokuva-albumissa voit jakaa omia herkullisia reseptejäsi ja ruokien kuvia muiden kanssa. Inspiroidu muiden luomista makuelämyksistä ja löydä uusia ideoita ruoanlaittoon.
+                  Valokuva-albumissa voit jakaa omia herkullisia reseptejäsi ja ruokien kuvia muiden kanssa. Inspiroidu muiden luomista makuelämyksistä ja löydä uusia ideoita ruoanlaittoon. Ole rohkea ja jaa parhaat hetkesi keittiöstä muiden ruokaharrastajien kanssa. Täällä jokainen kuva kertoo oman tarinansa ja herättää ruokahalun!
                 </h5>
                 <a href="#" className="inline-block">
                   <button

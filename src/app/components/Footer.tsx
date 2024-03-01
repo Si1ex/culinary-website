@@ -40,7 +40,6 @@ function Footeri() {
                   <li className="mb-2">
                     <a href="" className="">Matti Meikäläinen</a>
                   </li>
-                  
                   <li>
                     <a href="mailto:info@ruokamaailma.com" className="hover:before:scale-x-100 hover:before:origin-left relative before:w-full before:h-[2px] before:origin-right before:transition-transform before:duration-300 before:scale-x-0 before:bg-blue-500 before:absolute before:left-0 before:bottom-0">info@ruokamaailma.com</a>
                   </li>

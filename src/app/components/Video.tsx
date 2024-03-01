@@ -1,8 +1,8 @@
 import React from 'react';
 
-function CookingVideo() {
+function Video() {
     return (
-      <div className='max-w-md aspect-video'>
+      <div className='max-w-xl w-full aspect-video'>
         <iframe
           className='w-full h-full flex inset-0 aspect-video'
           width="100%"
@@ -17,4 +17,4 @@ function CookingVideo() {
     );
   }
 
-export default CookingVideo;
+export default Video;

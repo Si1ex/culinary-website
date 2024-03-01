@@ -14,7 +14,7 @@ function Page5() {
           <h2 className="mb-1 md:pb-10 text-xl md:text-4xl font-bold text-center text-white">Tervetuloa foorumille!</h2>
           </div>
         </div>
-        <div className="md:w-2/3 md:h-3/6 grid grid-cols-1 m-2 md:m-6 px-5 mb-5 gap-2 md:shrink-0 place-items-center">
+        <div className="md:w-2/3 md:h-1/2 grid grid-cols-1 m-2 md:m-6 px-5 mb-5 gap-2 md:shrink-0 place-items-center">
           <div className="w-full h-full">
             <div className="relative w-full h-full md:h-96 rounded-lg p-6 shadow-lg overflow-hidden flex flex-col justify-center items-center min-h-full">
               <div className="absolute inset-0 bg-artikkeli bg-no-repeat bg-cover backdrop-blur-lg blur-md"></div>

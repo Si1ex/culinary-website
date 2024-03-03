@@ -31,7 +31,7 @@ function Page3() {
         <div className="md:w-1/2 grid grid-cols-1 lg:grid-cols-2 lg:grid-rows-2 m-2 md:m-6 gap-2 md:gap-4 md:shrink-0 place-items-center">
           
           <div>
-          <div className="relative max-w-sm w-72 h-24 rounded-lg p-6 shadow-lg hover:scale-105 transition-transform duration-300 ease-in-out overflow-hidden">
+          <div className="relative max-w-sm w-72 h-24 rounded-lg p-6 shadow-lg md:hover:scale-105 transition-transform duration-300 ease-in-out overflow-hidden">
               <div className="absolute inset-0 bg-hävikki bg-no-repeat bg-cover backdrop-blur-lg blur-sm"></div>
               <div className="relative">
                 <h5 className="block mb-2 font-sans text-lg antialiased font-semibold leading-snug tracking-normal text-white">

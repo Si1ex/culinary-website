@@ -20,8 +20,7 @@ function Page2() {
           d="M0,192L60,186.7C120,181,240,171,360,176C480,181,600,203,720,213.3C840,224,960,224,1080,213.3C1200,203,1320,181,1380,170.7L1440,160L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"
         ></path>
       </svg>
-      <div className="absolute grid grid-cols-1 md:grid-cols-2 inset-0 md:m-3 px-5 h-screen md:gap-4 md:shrink-0 grid-rows-2
-       md:grid-rows-1 items-center justify-center">
+      <div className="absolute grid grid-cols-1 md:grid-cols-2 inset-0 md:m-3 px-5 h-screen md:gap-4 md:shrink-0 grid-rows-2 md:grid-rows-1 items-center justify-center">
           <div className="relative mt-5 lg:max-w-3xl lg:max-h-3xl w-full h-2/5 md:h-2/3 md:mt-20 md:mr-6 hover:scale-105 transition-transform duration-300 ease-in-out overflow-hidden flex flex-col justify-center items-center">
     <div className="absolute inset-0 bg-carbonara bg-no-repeat bg-contain bg-center shadow-lg"></div>
 </div>

@@ -22,7 +22,7 @@ function Page2() {
       </svg>
       <div className="absolute grid grid-cols-1 md:grid-cols-2 inset-0 md:m-3 px-5 h-screen md:gap-4 md:shrink-0 grid-rows-2
        md:grid-rows-1 items-center justify-center">
-          <div className="relative mt-16 lg:max-w-3xl lg:max-h-3xl w-full h-1/2 md:h-2/3 md:mt-20 md:mr-6 hover:scale-105 transition-transform duration-300 ease-in-out overflow-hidden flex flex-col justify-center">
+          <div className="relative mt-10 lg:max-w-3xl lg:max-h-3xl w-full h-1/2 md:h-2/3 md:mt-20 md:mr-6 hover:scale-105 transition-transform duration-300 ease-in-out overflow-hidden flex flex-col justify-center">
             <div className="absolute inset-0 bg-carbonara bg-no-repeat bg-contain shadow-lg"></div>
           </div>
         <div className="flex flex-col justify-center md:h-full place-items-center">

@@ -2,7 +2,7 @@ import React from 'react';
 
 function Video() {
     return (
-      <div className='max-w-xl w-full aspect-video'>
+      <div className='md:max-w-xl md:w-full w-46 mb-32 aspect-video'>
         <iframe
           className='w-full h-full flex inset-0 aspect-video'
           width="100%"

@@ -25,7 +25,7 @@ function Page2() {
           <div className="relative lg:max-w-3xl lg:max-h-3xl w-full h-2/3 md:mt-20 md:mr-6 hover:scale-105 transition-transform duration-300 ease-in-out overflow-hidden flex flex-col justify-end md:justify-center">
             <div className="absolute inset-0 bg-carbonara bg-no-repeat bg-contain shadow-lg"></div>
           </div>
-        <div className="grid grid-cols-1 md:shrink-0 h-1/3 md:h-5/6 w-full place-items-center">
+        <div className="flex flex-col justify-center md:h-full place-items-center">
         <div className="m-4">
             <h1 className="pb-5 md:text-lg font-bold text-center text-white">Viikon resepti: Pasta Carbonara</h1>
             <h4 className="text-sm text-white font-medium text-center">

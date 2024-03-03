@@ -22,13 +22,14 @@ function Page2() {
       </svg>
       <div className="absolute grid grid-cols-1 md:grid-cols-2 inset-0 md:m-3 px-5 h-screen md:gap-4 md:shrink-0 grid-rows-2
        md:grid-rows-1 items-center justify-center">
-          <div className="relative mt-5 lg:max-w-3xl lg:max-h-3xl w-full h-2/5 md:h-2/3 md:mt-20 md:mr-6 hover:scale-105 transition-transform duration-300 ease-in-out overflow-hidden flex flex-col justify-center">
-            <div className="absolute inset-0 bg-carbonara bg-no-repeat bg-contain shadow-lg"></div>
-          </div>
+          <div className="relative mt-5 lg:max-w-3xl lg:max-h-3xl w-full h-2/5 md:h-2/3 md:mt-20 md:mr-6 hover:scale-105 transition-transform duration-300 ease-in-out overflow-hidden flex flex-col justify-center items-center">
+    <div className="absolute inset-0 bg-carbonara bg-no-repeat bg-contain bg-center shadow-lg"></div>
+</div>
+
         <div className="flex flex-col justify-center md:h-full place-items-center">
         <div className="m-4">
             <h1 className="p-3 md:text-lg font-bold text-center text-white">Viikon resepti: Pasta Carbonara</h1>
-            <h4 className="text-sm text-white font-medium text-center">
+            <h4 className="text-xs md:text-sm text-white font-medium text-center">
               Tämän viikon reseptinä esittelemme herkullisen Pasta Carbonaran! Tämä italialainen klassikko on täydellinen valinta kiireiseen arkeen tai illalliseksi ystävien kanssa. Pasta Carbonara valmistetaan kermaisella pekonikastikkeella, joka on täynnä suussa sulavaa parmesaanijuustoa ja tuoretta mustapippuria. Tämä resepti on helppo valmistaa ja siitä tulee takuuvarmasti suosikki koko perheelle. Tarjoile höyryävä pasta kuumana lautasella ja ripottele päälle runsaasti raastettua parmesaania.
             </h4>
           </div>

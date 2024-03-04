@@ -141,29 +141,27 @@ export default function NavBar() {
                     <li>
                     <a 
                         href="#firstPage" 
-                        className="block py-2 px-3 text-white rounded hover:scale-110 ease-in-out duration-100 md:bg-transparent md:p-0" 
-                        aria-current="page">Koti</a>
+                        className="block py-2 px-3 text-white rounded hover:scale-110 ease-in-out duration-100">Koti</a>
                     </li>
                     <li>
                     <a 
                         href="#secondPage" 
-                        className="block py-2 px-3 text-white rounded hover:scale-110 ease-in-out duration-100 md:bg-transparent md:p-0" 
-                        aria-current="page">Viikon resepti</a>
+                        className="block py-2 px-3 text-white rounded hover:scale-110 ease-in-out duration-100">Viikon resepti</a>
                     </li>
                     <li>
                     <a 
                         href="#thirdPage" 
-                        className="block py-2 px-3 text-gray-900 rounded hover:scale-110 ease-in-out duration-100 md:hover:bg-transparent md:p-0 dark:text-white dark:hover:text-white md:dark:hover:bg-transparen">Artikkelit</a>
+                        className="block py-2 px-3 text-white rounded hover:scale-110 ease-in-out duration-100">Artikkelit</a>
                     </li>
                     <li>
                     <a 
                         href="#fourthPage" 
-                        className="block py-2 px-3 text-gray-900 rounded hover:scale-110 ease-in-out duration-100 md:hover:bg-transparent md:p-0 dark:text-white dark:hover:text-white md:dark:hover:bg-transparent">Albumi</a>
+                        className="block py-2 px-3 text-white rounded hover:scale-110 ease-in-out duration-100">Albumi</a>
                     </li>
                     <li>
                     <a 
                         href="#fifthPage" 
-                        className="block py-2 px-3 text-gray-900 rounded hover:scale-110 ease-in-out duration-100 md:hover:bg-transparent md:p-0 dark:text-white dark:hover:text-white md:dark:hover:bg-transparent">Foorumi</a>
+                        className="block py-2 px-3 text-white rounded hover:scale-110 ease-in-out duration-100">Foorumi</a>
                     </li>
                 </ul>
             </div>

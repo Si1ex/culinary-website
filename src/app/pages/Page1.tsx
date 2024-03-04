@@ -26,7 +26,7 @@ class Page1 extends Component {
           </div>
         </div>
         <div className="absolute inset-0 flex flex-col justify-center items-center mt-12 ">
-          <h1 className="text-4xl md:text-6xl font-bold text-center">Tervetuloa Ruokamaailmaan!</h1>
+          <h1 className="text-4xl md:text-6xl font-bold text-white text-center">Tervetuloa Ruokamaailmaan!</h1>
           <div className="w-1/2 h-2/5 pt-6">
             <h4 className="text-sm md:text-xl text-white font-medium text-center">
               Täällä herkutellaan maailman makuja ja ruokakulttuureja. Tutustu eri maiden keittiöihin, löydä viikon paras resepti ja lue artikkeleita ruokamaailman kiinnostavista ilmiöistä ja trendeistä! Liity herkulliseen yhteisöömme ja inspiroidu ruoan monimuotoisuudesta. Täällä ruoka yhdistää meidät kaikki!
